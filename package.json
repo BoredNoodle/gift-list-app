@@ -2,9 +2,10 @@
   "name": "gift-list-app",
   "version": "1.0.0",
   "description": "This is a gift list app that will allows users to create lists of gifts they want for gift-giving occasions (Christmas, birthdays, etc.).",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
